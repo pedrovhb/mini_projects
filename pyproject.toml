@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mini-projects"
+version = "0.1.0"
+description = "Small projects which don't yet warrant their own repo."
+authors = ["Pedro Batista <pedrovhb@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "mini_projects"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.23.3"
+loguru = "^0.6.0"
+rich = "^13.3.1"
+typing-extensions = "4.3.0"
+textual = {extras = ["dev"], version = "^0.10.1"}
+libcst = "^0.4.9"
+tree-sitter = "^0.20.1"
+asynkets = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

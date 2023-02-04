@@ -17,6 +17,10 @@ textual = {extras = ["dev"], version = "^0.10.1"}
 libcst = "^0.4.9"
 tree-sitter = "^0.20.1"
 asynkets = "^0.1.0"
+ewmh = "^0.1.6"
+openai = "^0.26.4"
+sqlite-utils = "^3.30"
+bottle = "^0.12.23"
 
 
 [build-system]
